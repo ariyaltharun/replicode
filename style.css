@@ -27,16 +27,23 @@
     font-size: 1rem;
 }
 
+/* 4th */
+.fourth-img {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
 .stats {
-    width: 15rem;
-    height: 15rem;
+    align-items: center;
     border-radius: 100%;
     background-color: red;
-    border-style: double;
     border-width: 0.5rem;
-    margin: auto 2rem;
-    color: #03045e;
-    align-items: center;
+    border-style: double;
+    color: #000003;
+    height: 15rem;
+    width: 15rem;
+    margin: auto 3rem;
 }
 
 
