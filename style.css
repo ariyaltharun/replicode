@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.view {
+    background-image: url('./Images/Body/blue-back-2.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 10rem;
+}
+
+.first-bg-img {
+    background-image: url("./Images/header/hero-bg-1-2.jpg");
+    height: 47rem;
+}
+
+.fourth-img-style {
+    height: 10rem;
+}
+
+.custom-text {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.stats {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    background-color: red;
+    border-style: double;
+    border-width: 0.5rem;
+    margin: auto 2rem;
+    color: #03045e;
+    align-items: center;
+}
+
+
+.stats-text {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+/* .bg {
+    background-image: url('./Images/Body/blue-back-2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#time {
+    background-image: inherit;
+    text-align: center;
+    color: white;
+}
+
+.btn-lv-str {
+    background-color: #d90429;
+    color: white;
+    padding: 1rem 1rem;
+    border: 0rem;
+}
+
+/* #time {
+    padding: 3rem;
+}  */
+
+#part5 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.indi-box {
+    padding: 2rem 1rem;
+    background-color: #03045e;
+    margin: 1rem 1rem;
+}
+
+.indi-box:hover{
+    background-color: #d90429;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-name {
+    background-color: #03045e;
+    padding: 1rem 1.2rem;
+    border: 2px black solid;
+}
